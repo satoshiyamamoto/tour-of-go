@@ -15,5 +15,5 @@ func main() {
 	fmt.Println("The value:", m["Answer"])
 
 	v, ok := m["Answer"]
-	fmt.Println("The value:", v, "Present?", okb)
+	fmt.Println("The value:", v, "Present?", ok)
 }
